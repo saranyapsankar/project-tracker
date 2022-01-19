@@ -1,0 +1,7 @@
+<div class="project-container">
+<button (click)="onAddProject()">Add Project</button>
+
+<div class="project-list" *ngFor="let item of project">
+    project: {{item}} <button click="deleteProject(item)">Delete</button>
+</div>
+</div>

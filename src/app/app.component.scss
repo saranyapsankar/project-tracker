@@ -1,0 +1,12 @@
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+app-side-nav {
+    width: 150px;;
+}
+.container {
+    width: 80%;
+}

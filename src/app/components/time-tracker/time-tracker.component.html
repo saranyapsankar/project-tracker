@@ -1,0 +1,14 @@
+<div class="time-container">
+    <mat-form-field appearance="fill">
+        <mat-select [(ngModel)]="projectsControl" name="project">
+            <option *ngFor="let item of projectList" [value]="item"> {{item}}</option>
+        </mat-select>
+    </mat-form-field>
+    <div style="display: flex; flex-direction: row">{{timer}} 
+        <button (click)="onStartTimerClick()">Start timer</button>
+    </div>
+    
+</div>
+
+
+

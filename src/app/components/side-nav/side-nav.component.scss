@@ -1,0 +1,13 @@
+.side-nav{
+    position: fixed;
+    width: 150px;
+    left: 0;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color:lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
